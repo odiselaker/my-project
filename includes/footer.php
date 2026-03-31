@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="footer color-gold p-40 ">
-        <footer>&copy; JustKoureio |Created by odiselaker</footer>
+        <footer>&copy; JustKoureio | Created by odiselaker</footer>
     </div>
     
 </body>

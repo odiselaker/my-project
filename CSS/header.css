@@ -9,29 +9,6 @@ html, body {
   box-sizing: border-box;
 }
 
-.header {
-  position: relative;
-  height: 300px;
-  background: url("../assets/images/headermen.png") center -200px/ cover no-repeat;
-  overflow: hidden;
-}
-
-.header::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: inherit;
-  filter: blur(8px);
-  transform: scale(1.1);
-}
-
-.header > * {
-  position: relative;
-  z-index: 1;
-}
-
-
-
 .color-gold {
   color: rgb(252, 227, 145);
 }
