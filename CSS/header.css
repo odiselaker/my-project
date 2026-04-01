@@ -1,6 +1,6 @@
-html, body {
+html, body{
   margin: 0;
-  background-color: rgb(61, 61, 61);
+  background-color: rgb(50, 50, 50);
   font-family: "Sofia", sans-serif;
 } 
 
@@ -14,6 +14,6 @@ html, body {
 }
 
 .bck-color-dark {
-  background-color: black;
+  background-color: rgb(6, 5, 5);
 }
 
