@@ -12,13 +12,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Parisienne&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/my-project/CSS/style.css">
     <link rel="stylesheet" href="/my-project/CSS/header.css">
+    <link rel="stylesheet" href="/my-project/CSS/header+.css">
     <title><?php echo isset($page_title) ? $page_title : "Default Page"; ?></title>
 
 </head>
 <body>
   <div class="header d-flex justify-center text-center items-center f-size-25 color-gold b-shadow pos-relative over-hidden">
 
-    <a href="/my-project/index.php"><img class="logo" src="/my-project/assets/icons/lionlogo.png" height="auto" width="180px" alt="logo"></a>
+    <a href="/my-project/index.php"><img class="logo" src="/my-project/assets/icons/lionlogo.png" height="auto" width="160px" alt="logo"></a>
 
 <div class="hamburger">
   <div class="line"></div>
@@ -26,26 +27,23 @@
   <div class="line"></div>
 </div>
 
+      <h1 class="monsieur-la-doulaise-regular">JustKoureio</h1>
+
+  </div>
+
+  
 <div class="sidebar">
   <span class="closeSidebar">&times;</span>
   <a href="/my-project/index.php">Home</a>
   <a href="/my-project/about.php">About</a>
   <a href="/my-project/contact.php">Contact</a>
-
+  
  <div class="social">
     <a href="#"><img src="/my-project/assets/icons/instagram.png" height="auto" width="50px" alt="icon"></a> 
     <a href="#"><img src="/my-project/assets/icons/telegram.png" height="auto" width="50px" alt="icon"></a> 
     <a href="#"><img src="/my-project/assets/icons/facebook.png" height="auto" width="50px" alt="icon"></a> 
  </div>
 </div>
-
-      <h1 class="monsieur-la-doulaise-regular">JustKoureio</h1>
-      <h2 class="syncopate-regular">JUSTKOUREIO</h2>
-
-      <video class="video-bg pos-absolute top-50 left-50 min-w-100 min-h-100 w-auto h-auto transform filterBB object-cover" autoplay muted loop>
-        <source src="/my-project/assets/videos/HAIRMAN.mp4" type="video/mp4">
-      </video>
-  </div>
 
 <script src="/my-project/JS/script.js"></script>
 </body>

@@ -1,0 +1,69 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: rgb(48, 48, 48);
+  overflow: hidden;
+} 
+
+*{
+  box-sizing: border-box;
+}
+
+.header {
+    position: relative;
+    min-height: 200px !important; 
+    overflow: hidden;
+}
+
+
+.sidebar {
+  position: fixed;
+  background-color: rgb(19, 19, 19);
+  min-height: 800px !important;
+  min-width: 500px;
+  top: 0;
+  z-index: 4;
+  right: -500px;
+  transition: right 0.3s ease;
+  overflow: hidden;
+  border-bottom-left-radius: 20px;
+}
+
+.sidebar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  color: rgb(252, 227, 145);
+  text-decoration: none;
+  height: auto;
+}
+
+.sidebar .closeSidebar {
+  color: rgb(252, 227, 145);
+  display: none;
+  position: absolute;
+  z-index: 5;
+  top: 13px;
+  right: 40px;
+  font-size: 55px;
+}
+
+/*=============== SOCIAL ==============*/
+
+.social {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  text-align: center;
+}
+
+.social a{
+  display: inline-block; 
+  cursor: pointer;
+  width: 50px;
+  height: auto;
+  margin: 0 10px; 
+}

@@ -13,12 +13,152 @@ html, body{
   color: rgb(252, 227, 145);
 }
 
-.header {
-  min-height: 1200px;
-}
-
 .monsieur-la-doulaise-regular {
   font-family: "Monsieur La Doulaise", cursive;
   font-weight: 400;
   font-style: normal;
+}
+
+.syncopate-regular {
+  font-family: "Syncopate", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  min-height: 1200px;
+}
+
+.min-w-100 {
+  min-width: 100%;
+}
+
+.min-h-100 {
+  min-height: 100%;
+}
+
+.over-hidden {
+  overflow: hidden;
+}
+
+.z-index--1 {
+  z-index: -1;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.header h1 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: "Monsieur La Doulaise", cursive;
+}
+
+.header h2 {
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  font-family: "Syncopate", sans-serif;
+  margin-top: 110px; /* απόσταση από το h1 */
+  font-size: 15px; /* ό,τι μέγεθος θέλεις */
+  color: rgb(252, 227, 145); /* ίδια χρώματα με h1 ή διαφορετικό */
+}
+
+.transform {
+  transform: translate(-50%, -50%);
+}
+
+.filterBB {
+  filter: brightness(0.6) blur(5px);
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  z-index: 3;
+  cursor: pointer;
+}
+
+/*=============== HAMBURGER ==============*/
+
+.hamburger{
+  position: absolute;
+  cursor:pointer;
+  z-index: 5;
+  top: 30px;
+  right: 40px;
+}
+
+.hamburger .line{
+  background-color:rgb(252, 227, 145);
+  border-radius: 8px;
+  width:35px;
+  height:4px;
+  margin:4px 0;
+}
+
+/*=============== SIDEBAR ==============*/
+
+.sidebar {
+  position: absolute;
+  background-color: rgb(19, 19, 19);
+  min-height: 100%;
+  min-width: 500px;
+  top: 0;
+  z-index: 4;
+  right: -500px;
+  transition: right 0.3s ease;
+}
+
+.sidebar a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  color: rgb(252, 227, 145);
+  text-decoration: none;
+  height: auto;
+}
+
+.sidebar .closeSidebar {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  top: 13px;
+  right: 40px;
+  font-size: 55px;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sidebar.active .closeSidebar {
+  display: block;
+  cursor: pointer;
+}
+
+.hamburger.hidden {
+  display: none;
+}
+
+/*=============== SOCIAL ==============*/
+
+.social {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translateX(-50%); 
+  text-align: center;
+}
+
+.social a{
+  display: inline-block; 
+  cursor: pointer;
+  width: 50px;
+  height: auto;
+  margin: 0 10px; 
 }
