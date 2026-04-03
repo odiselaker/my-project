@@ -36,10 +36,10 @@
        <th>days</th>
        <th>hours</th>
     </tr>
-
-    <?php foreach ($calendar as $row): ?>
+    
+    <?php foreach ($calendar as $row): ?> 
         <tr>
-          <td><?php echo $row['day']; ?></td>
+          <td><?php echo $row['day']; ?></td> /* pernei ta stoixoia apo to calendar kai ta emfanizi para kato */
           <td><?php echo $row['hours']; ?></td>
         </tr>
     <?php endforeach; ?>
